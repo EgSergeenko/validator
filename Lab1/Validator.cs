@@ -44,6 +44,17 @@ namespace ValidationSystem
                 _results.Add(false);
             }
         }
+        public void DeleteStudent(Student student)
+        {
+            for (int i = 0; i < _students.Count(); i++)
+            {
+                if (_students[i].Id == student.Id)
+                {
+                    _students.RemoveAt(i);
+                    _results.RemoveAt(i);
+                }
+            }
+        }
         /** Проверка задания студента
          * \param[in] student студент для проверки
          */
