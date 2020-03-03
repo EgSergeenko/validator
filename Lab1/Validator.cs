@@ -111,5 +111,10 @@ namespace ValidationSystem
                 Console.WriteLine("Name: " + this._students[i].Name + " Result: " + Check(_students[i]).Item2);
             }
         }
+
+        public void ChangeAnswer(string answer)
+        {
+            RightAnswer = answer;
+        }
     }
 }
