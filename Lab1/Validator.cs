@@ -95,7 +95,7 @@ namespace ValidationSystem
             bool success = false;
             for (int i = 0; i < _students.Count(); i++)
             {
-                if (_students[i].Id == student.Id)
+                if (_students[i] == student)
                 {
                     existence = true;
                     success = _students[i].Task.Text == RightAnswer;
