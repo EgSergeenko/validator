@@ -108,7 +108,7 @@ namespace ValidationSystem
         {
             for (int i = 0; i < _students.Count(); i++)
             {
-                Console.WriteLine(this._students[i].Name + " " + Check(_students[i]).Item2);
+                Console.WriteLine("Name: " + this._students[i].Name + " Result: " + Check(_students[i]).Item2);
             }
         }
     }
