@@ -9,6 +9,7 @@ namespace Lab1
     public class Tutor
     {
         public string Name;
+
         public Tutor(string name)
         {
             Name = name;
