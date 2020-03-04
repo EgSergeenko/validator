@@ -1,3 +1,6 @@
 [submodule "Submodules/Doxygen"]
 	path = Submodules/Doxygen
 	url = https://github.com/EgSergeenko/Doxygen
+[submodule "Submodules/Live-Share"]
+	path = Submodules/Live-Share
+	url = https://github.com/EgSergeenko/Live-Share
